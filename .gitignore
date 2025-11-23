@@ -1,0 +1,33 @@
+# --- Python cache ---
+utils/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Virtual environments ---
+venv/
+env/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- macOS ---
+.DS_Store
+
+# --- Logs ---
+*.log
+
+# --- YOLOv8 training output ---
+runs/
+
+# --- Dataset ---
+data/images/
+data/labels/
+
+# --- Model weights ---
+*.pt
+*.pth
+
+# --- Editor files ---
+.vscode/
+.idea/
